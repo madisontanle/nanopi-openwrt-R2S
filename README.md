@@ -1,4 +1,4 @@
-# Nanopi R1S R2S R2C R4S X86 Openwrt 固件
+# Nanopi R2S Openwrt 固件
 
 [刷机工具](https://www.balena.io/etcher/)  
 [下载地址](#下载地址)  
@@ -17,19 +17,7 @@ https://github.com/stupidloud/nanopi-openwrt/tags
 烧制完固件插入tf卡并启动完成，电脑端显示“网络（已连接）”之后，在浏览器输入 http://immortalwrt/ 可以直接打开路由器后台，无需修改本地连接设置或者查看IP地址。  
 如果网络状态一直是未识别（上电超过5分钟），请直接插拔一次电源重启试试。
 
-### 终端内在线升级方法：
-```bash
-wget -qO- https://github.com/stupidloud/nanopi-openwrt/raw/master/scripts/autoupdate-bash.sh | bash
-```
-slim版
-```bash
-wget -qO- https://github.com/stupidloud/nanopi-openwrt/raw/master/scripts/autoupdate-bash.sh | ver=-slim bash
-```
-x86安装盘不是sda的情况下使用
-```bash
-wget -qO- https://github.com/klever1988/nanopi-openwrt/raw/master/scripts/autoupdate-bash.sh | disk=sdb bash
-```
-(脚本由gary lau提供，非常感谢！)
+
 
 ### 固件特性：
 - slim版固件只有OpenWrt本体，但内置了“本地软件源”，包含大部分常用插件，不喜欢固件预装繁杂插件的人可以选择这个版本，进入后台软件包选装所需插件
