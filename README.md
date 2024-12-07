@@ -1,6 +1,6 @@
 # Nanopi R2S Openwrt 固件
 
-[刷机工具](https://www.balena.io/etcher/)  | [下载地址](#下载地址)  | [更新说明](#更新说明)  | [使用提示](#使用提示)  | [固件特性](#固件特性)  | [在线升级](#终端内在线升级方法)  
+[刷机工具](https://www.balena.io/etcher/)  | [下载地址](#下载地址) | [使用提示](#使用提示)  | [固件特性](#固件特性)  
 [1分钟生成自己所需固件](#1分钟生成自己所需固件)  
 
 ### 下载地址：
@@ -28,8 +28,6 @@ https://github.com/stupidloud/nanopi-openwrt/tags
 <img src="https://user-images.githubusercontent.com/56048681/114531768-c7648c80-9c7e-11eb-8d72-fe38f9df960d.png" width="250" />  
 再点击Run即可获取自己所需的固件
 
-### 更新说明：
-https://github.com/stupidloud/nanopi-openwrt/blob/master/CHANGELOG.md
 
 #### 本固件NAT基准性能测试：
 <img src="https://raw.githubusercontent.com/stupidloud/nanopi-openwrt/master/assets/NAT.jpg" width="450" />
