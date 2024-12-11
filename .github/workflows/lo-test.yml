@@ -296,8 +296,8 @@ jobs:
           make image PACKAGES="$PACKAGES $LUCI $LP luci-i18n-base-zh-cn luci-i18n-firewall-zh-cn" FILES="files"
           
           # change SSID & Password
-          sed -i 's/^.*optionssid .*/        optionssid Monika/' /package/mac80211/files/lib/wifi/mac80211.sh
-          sed -i 's/^.*option key .*/        option key monika111/' /package/mac80211/files/lib/wifi/mac80211.sh
+          sed -i 's/^.*optionssid .*/        optionssid Monika/' /package/knerel/mac80211/files/lib/netifd/wireless/mac80211.sh
+          sed -i 's/^.*option key .*/        option key monika111/' /package/knerel/mac80211/files/netifd/wireless/mac80211.sh
 
           mkdir -p $GITHUB_WORKSPACE/release
           mv $(ls -1 ./bin/targets/*/*/*img.gz | head -1) $GITHUB_WORKSPACE/release/$DEVICE.img.gz
