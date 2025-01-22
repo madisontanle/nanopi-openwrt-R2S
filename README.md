@@ -10,7 +10,7 @@ https://github.com/stupidloud/nanopi-openwrt/tags
 ### 使用提示：
 默认用户名是root, 密码是password，局域网IP为192.168.2.1  
 烧制完固件插入tf卡并启动完成，电脑端显示“网络（已连接）”之后，在浏览器输入 http://immortalwrt/ 可以直接打开路由器后台，无需修改本地连接设置或者查看IP地址。  
-如果网络状态一直是未识别（上电超过5分钟），请直接插拔一次电源重启试试。
+如果网络状态一直是未识别（上电超过5分钟），请直接插拔一次电源重启试试。                                                                                                            
 [一键wifi配置脚本](https://raw.githubusercontent.com/stupidloud/nanopi-openwrt/master/usb-wifi.sh) usage: ./ usb-wifi.sh OpenWrt 12345678
 
 
